@@ -1,0 +1,522 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content{
+    background-image:
+    url(form1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 849px;
+    height: 223px;
+    padding-left: 30px;
+    }
+
+.card {
+    border: 2px solid black;
+    width: 500px;
+    display: flex;
+    box-shadow: 7px 7px black;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+.btn-size {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #782affb2;
+    color: white;
+    font-size: 14px;
+}
+
+.btn-size:hover {
+    background-color: #591fbeb2;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+}
+
+#value {
+    margin: 0 10px;
+}
+
+.price {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+#buy {
+    width: 90%;
+    height: 40px;
+    background-color: #792aff;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+@keyframes planet-move {
+ from{transform: translateY(0px);}
+ to {transform: translateY(70px);}   
+}
+
+.moving-planet{
+    animation-name: planet-move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.title{
+    padding-top: 100px;
+    text-align: center;
+    color: #FFF;
+    font-size: 80px;
+    text-shadow: 
+         5px 5px 0 #000000;
+ }
+
+ .about-title{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    max-width: 463px;
+    margin-bottom: 20px;
+    font-family: 'Comfortaa';
+}
+
+.about-content{
+    width: 35%;
+    height: 270px;
+    background: #792AFF;
+    padding-left: 40px ;
+    padding-top: 40px;
+    position: relative;
+    display: flex;
+}
+
+.about-card p{
+    color: #000;
+    font-size: 17px;
+    align-self: start;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Comfortaa';
+}
+
+.about-card img{
+    padding-bottom: 20px;
+}
+
+.about-card{
+    background-image: 
+        url(img/form2.png);
+    background-repeat: 
+                 no-repeat;
+    width: 376px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    position: relative;
+    padding-left: 550px;
+}
+
+.moving-planet2{
+    background: url(img/moving-planet2.png);
+    background-repeat: no-repeat;
+    width: 208px;
+    height: 200px;
+    position: absolute;
+    bottom: 70px;
+    left: 0;
+}
+
+.moving-planet, .moving-planet2, .moving-cloud{
+    animation-name: planet_move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.works-block img{
+    margin: 0 20px;
+    width: 27%;
+    box-shadow: 
+      7px 7px 0 #000000;
+}
+
+footer{
+    background-color: #200153;
+    height: 11px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+ }
+ 
+ .footer-info p{
+    font-family: 'Comfortaa';
+    padding-bottom: 10px;
+ }
+ 
+ .footer-year p{
+    font-family: 'Comfortaa';
+    letter-spacing: 1.5px;
+ }
+ 
+ .footer-links a{
+    margin-right: 10px;
+ }
+
+
+ .text{
+    position: relative;
+    bottom: 100px;
+ }
+ .skills-card{
+    background-image: url(img/form3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin: 20px;
+    padding-left: 10px;
+    
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+ }
+
+ .nav-link{
+    width: 112px;
+    height: 40px;
+    border-radius: 12px;
+    border: 2px solid #000;
+    background-color: #FFF;
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-family: 'Comfortaa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+ }
+ 
+ .logo{
+    color: #BBFF2C;
+    font-size: 80px;
+    padding-left: 50px;
+ }
+
+ .fixed-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+ }
+ .nav-links{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    padding-right: 150px;
+ }
+
+ *{
+    margin: o;
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+ }
+
+ .active{
+    background-color: #BBFF2C;
+ }
+
+@import 
+url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+*{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+section{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+#main{
+    background-image: url(img/bgMAIN.png);
+}
+
+@media (max-width: 520px) {
+    body {
+      background-color: #792AFF;
+    }
+  }
+  @media (min-width: 521px) and (max-width: 960px) {
+    body {
+      background-color: #BBFF2C;
+    }
+  }
+  @media (min-width: 961px) {
+    body {
+      background-color: black;
+    }
+  }
+
+  @media (max-width: 1000px) {
+
+    .nav-links {
+        display: none;
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+  }
+
+  .main-content{
+    max-width: 320px;
+  }
+
+  .main-title{
+    padding-top: 30px;
+    font-size: 30px;
+  }
+  .main-subtitle{
+    font-size: 15px;
+  }
+  .planet, .moving-cloud,
+  .moving-planet2{
+    display: none;
+  }
+
+  .title{
+    font-size: 50px;
+    padding-top: 30px;
+  }
+  .about-block{
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 0;
+    margin-left: 200px;
+  }
+
+  .about-card{
+    order: -1;
+    background-size: contain;
+    padding-top: 20px;
+    width: 326px;
+    height: 296px;
+  }
+
+  
+  .about-content{
+    width: 75%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+
+  .about-title{
+    font-size: 18px;
+  }
+
+  .skills-card{
+    margin: 20px;
+    padding-left: 10px;
+    background-size: contain;
+  }
+
+  .skills-card p{
+    font-size: 16px;
+    margin-top: 15%;
+    margin-bottom: 20px;
+  }
+
+  .skills-section{
+    min-height: 60vh;
+  }
+
+  .skills-card .button{
+    position: absolute;
+    bottom: 100px;
+  }
+
+  .skills-card .text{
+    position: relative;
+    bottom: 300px;
+  }
+
+  .works-block{
+    flex-direction: column;
+    padding: 10px 0;
+  }
+
+  .works-block img{
+    margin: 20px 0;
+    width: 30%;
+  }
+
+  .about-blocked{
+    flex-direction: column;
+    margin-top: 5px;
+    padding: 0;
+    margin-left: 290px;
+  }
+  .comments-block{
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .comments{
+    background-image:
+        url(comments-mobile.png) ;
+  }
+
+  .comment p{
+    font-size: 15px;
+    max-width: 290px;
+  }
+
+  .skills-cardffff{
+    z-index: 999;
+    position: relative;
+    bottom: 1500px;
+    left: 522px;
+  }
+
+  .textinggg{
+    z-index: 999;
+    position: relative;
+    bottom: 80px;
+    left: 902px;
+  }
+  .textinggg2{
+    z-index: 999;
+    position: relative;
+    bottom: 160px;
+    left: 902px;
+  }
+  .textinggg3{
+    z-index: 999;
+    position: relative;
+    bottom: 150px;
+    left: 902px;
+  }
+
+  .ufrgryryyru{
+    z-index: 999;
+    position: relative;
+    bottom: 1470px;
+    right: 400px;
+  
+  }
+
+body {
+  background-image: url('fon-dlia-saita-1.png');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
+
+.jsttt{
+  z-index: 999;
+  position: relative;
+  bottom: -250px;
+  left: 600px;
+  
+}
+
+.furtutt{
+  z-index: 999;
+  position: relative;
+  bottom: -250px;
+  left: 650px;
+}
+.textmister{
+  z-index: 999;
+  position: relative;
+  bottom: 450px;
+  size: 20px;
+  width: 450px;
+}
+.Rectangl{
+  z-index: 999;
+  position: relative;
+  bottom: -250px;
+  left: 700px;
+}
+
+.texter{
+  width: 463;
+  height: 111px;
+  left: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 20.99px;
+  position: relative;
+  bottom: 200px;
+  z-index: 999;
+}
+
+.mobile-button{
+  display: none;
+  padding-top: 10px;
+  width: 40px;
+  position: absolute;
+  right: 20px;
+}
+.hide{
+  display: none;
+}
+@media (max-width: 1000px) {
+  .mobile-button {
+      display: block;
+  }
+}
+
+.mobile-nav{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mobile-nav-links .nav-link{
+  margin-bottom: 30px;
+  width: 210px;
+  height: 50px;
+}
+.mobile-menu{
+  position: absolute;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  background-color: #200153;
+  min-height: 100vh;
+}
+
+.off-scroll{
+  overflow: hidden;
+}
